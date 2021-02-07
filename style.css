@@ -1,0 +1,42 @@
+h1 {
+    color: rgb(82, 17, 235);
+}
+
+* {
+    border: 0cm;
+}
+
+.header{
+    background-color:rgb(3, 236, 3); 
+    text-align: center; 
+    display :flex;
+    justify-content: space-between;  
+   
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
